@@ -6,7 +6,7 @@ url = "https://api-wazirx-com.translate.goog/sapi/v1/tickers/24hr?_x_tr_sl=en&_x
 conn_params = {
     'dbname': 'crypto_data',
     'user': 'postgres',
-    'password': '123456789',
+    'password': 'xxxxxxx',
     'host': 'localhost',
     'port': '5432'
 }
