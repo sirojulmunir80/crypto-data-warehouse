@@ -28,15 +28,16 @@ The cryptocurrency data is sourced from the [WazirX API](https://api-wazirx-com.
 ```bash
 git clone https://github.com/sirojulmunir80/crypto-data-warehouse.git
 cd crypto-data-warehouse
-
+```
 ### 2. Install Dependencies
 ```bash
 pip install psycopg2 pandas requests
-
+```
 ### 3. Set Up PostgreSQL Database
 #### 1. reate a new PostgreSQL database:
 ```bash
 CREATE DATABASE crypto_data;
+```
 #### 2. Create the necessary tables for storing the crypto data:
 ```bash
 CREATE TABLE IF NOT EXISTS crypto_tickers (
