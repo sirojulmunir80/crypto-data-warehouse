@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS crypto_tickers (
     timestamp TIMESTAMP,
     CONSTRAINT unique_symbol_timestamp UNIQUE (symbol, timestamp)
 );
-
+```
 
 
 
